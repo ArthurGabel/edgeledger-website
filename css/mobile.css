@@ -1,0 +1,54 @@
+p{
+  font-size: 15px;
+}
+
+.navbar {
+  flex-direction: column;
+  height: 100px;
+  padding: 15px 3px;
+}
+
+.navbar .logo {
+  font-size: 30px;
+}
+
+.navbar ul li {
+  padding: 17px 5px;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.blog-home {
+  height: 30vh;
+}
+
+.flex-items {
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.flex-items>div {
+  padding: 5px;
+}
+
+.icon {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.items-group p {
+  padding: 0;
+}
+
+.flex-columns .column, .flex-grid .column {
+  flex: 100%;
+  max-width: 100%;
+}
+
+.flex-grid .column {
+  padding-bottom: 15px;
+}
+
+.team img {
+  width: 70%;
+}
